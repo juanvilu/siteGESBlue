@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sp" lang="sp">
+<head>
+<title>Enlace Bancario</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="description" content="Estudio del grado de relaci&oacute;n entre la producci&oacute;n cient&iacute;fica en Ciencias de la Documentaci&oacute;n y las diferentes plataformas o SO disponibles en el mercado, realizado a trav&eacute;s del an&aacute;lisis de las publicaciones recogidas en la base de datos LISA (Library and Information Science Abstracts).">
+<meta name="Author" content="V&iacute;ctor Herrero Solana"> 
+<meta name="keywords" content="Conceptos y Disciplinas"> 
+<link rel="alternate" href="http://www.nosolousabilidad.com/index.xml"  type="application/rss+xml" title="rss" />
+
+<link href="general.css" media="screen" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+
+-->
+</style>
+</head>
+<body>
+
+  <div class="texto"> 
+    
+  <h3>Enlace Bacario (Pagos Referenciados)</h3>
+    
+  <p class="autor"><em>Maximino Celis Carbajal</em></p>
+    <p>El manejo de efectivo dentro de las instituciones educativas, por seguridad tanto del alumnado y de la misma institución, se esta buscando substituir por el pago referenciado. Bajo esta modalidad el padre de familia realiza directamente los depósitos en el banco. Control Escolar GES esta preparado para realizar el proceso de pago referenciado. Control Escolar GES le permite realizar desde la impresión de las boletas de pago con la referencia bancaria, la cual incluye el digito verificador, así como la importación directa al sistema del archivo bancario descargado de la página web de banco.</p>
+    <p>A continuación se explica brevemente el proceso a seguir para la implentación de este mecanismo de pago.</p>
+  </div>
+ 
+<div class="texto"> 
+
+  <h4>1. Configuración de referencia bancaria y cálculo de digito verificador.</h4>
+    
+    <p>Esta parte del proceso deberá realizarce bajo el asesoramiento de su ejecutivo de soporte técnico.</p>
+	
+    <p>Desde el menú de COBRANZA podrá accesar a la opción ENLACE BANCARIO. Al seleccionarla se desplegarán dos opciones: IMPRESION DE BOLETAS DE PAGO y PROCESAMIENTO DE ARCHIVOS BANCARIOS.</p>
+
+    <p align="center"><img src="enlaceban_config.jpg" width="426" height="152" /></p>
+
+    <p>Elija la opción de IMPRESION DE BOLETAS DE PAGO. En la ventana que se despliegue, al ser la primera vez que va a utilizar esta herramienta, deberá configurar el contenido de la referencia y el cálculo del digito verificador. Para ello haga clic en el botón de CONFIGURAR REFERENCIA BANCARIA.</p>
+  
+    <p align="center"><img src="enlaceban_configref.jpg" width="159" height="24" /></p> 
+ 
+    <p>El sistema cuenta con diversos codigos los cuales se deben configurar de acuerdo a los datos que desea que integren la referencia bancaria como pueden ser: MATRICULA DEL ALUMNO, NUMERO DE CONTROL INTERNO DEL ALUMNO EN EL SISTEMA, CLAVE, MES Y AÑO DEL CONCEPTO A PAGAR, FECHAS DE INICIO, VENCIMIENTO Y LIMITE DE PRONTO PAGO, IMPORTE DEL PRONTO PAGO, DEL PAGO OPORTUNO Y DE PAGO CON RECARGOS, Y POR ULTIMO EL O LOS DIGITOS VERIFICADORES. A continuación se ejemplifica graficamente la configuración con 3 referencias:</p>
+
+    <p align="center"><img src="enlaceban_confiejem.jpg" width="486" height="293" /></p> 
+
+  <h4>2. Impresión de boletas bancarias.</h4>
+
+    <p>Una vez terminada la configuración del contenido y calculo de la referencia, desde el sistema podrá hacer la impresión de los recibos bancarios. Al cerrar la opción de configuración, el sistema regresará a la pantalla anterior, en la cual encontrará la opción de GENERAR BOLETAS, haga clic en ella y podrá obtener una boleta de pago como se muestra en la siguiente imagen.</p>
+
+    <p align="center"><img src="enlaceban_impboleta.jpg" width="630" height="267" /></p>
+
+    <p>El diseño del formato de la boleta debe hacerse de acuerdo a el colegio y las especificaciones del banco con el que tiene contratado el servicio.</p>
+
+  <h4>3. Importar archivo bancario.</h4>
+
+    <p>Para que el Sistema de Control Escolar GES, pueda interpretar el archivo emitido por el banco. Lo primero que necesitamos es separar por columnas el archivo bancario. Esto se hace en base al layout que el banco debe proporcionar al colegio. En el layout nos indica la longitud de cada columna y el tipo de dato que manjean.</p>
+
+    <p>Para configurar esto, desde el menú de COBRANZA podrá accesar a la opción ENLACE BANCARIO. Al seleccionarla se desplegarán dos opciones: IMPRESION DE BOLETAS DE PAGO y PROCESAMIENTO DE ARCHIVOS BANCARIOS. Elija la opción de PROCESAMIENTO DE ARCHIVOS BANCARIOS. En la pantalla que se mostrará, haga clic en el icono del signo de interrogación (?) y busque el archivo previamente descargado de la pagina web del banco.</p>
+
+    <p align="center"><img src="enlaceban_import1.jpg" width="440" height="240" /></p>
+
+    <p>Una vez seleccionado haga clic en el boton de PROCESAR ARCHIVO. Esto lo llevará a la pantalla de importación del archivo bancario, pero por ser la primera vez que lo utiliza, deberá entrar primero a la configuración de las columnas haciendo clic en el boton de CONFIGURAR COLUMNAS.</P> 
+
+    <p align="center"><img src="enlaceban_import2.jpg" width="138" height="29" /></p>   
+
+    <p>En esta pantalla deberá indicar el nombre, longitud y tipo de campo como se muestra en la pantalla de ejemplo.</p>
+
+    <p align="center"><img src="enlaceban_import3.jpg" width="525" height="374" /></p>
+
+    <p>Al igual que deberá indicar con que columna se va a identificar al alumno y al pago. Por lo general en una referencia bien constituida, ambos casos se identifican con la columna REFERENCIA BANCARIA. Con esto ya esta listo para hacer la importación, al guardar los cambios, el sistema regresará a la pantalla de importación y ya verá el archivo bancario ordenado de acuerdo a las columnas declaradas.</p>
+
+    <p>El siguiente paso es revisar si el sistema puede interpretar el contenido del archivo bancario. Para ello haga clic en el boton de VERIFICAR INTEGRIDAD. El sistema recorrerá cada registro y mostrará el estatus de LISTO PARA PROCESAR si localiza la referencia en la base de datos del sistema, ALUMNO NO ENCONTRADO o PAGO NO UBICADO, si existe algna diferencia entre la referencia del sistema y la del banco, o PAGO PREVIAMENTE APLICADO, si ya fue importado el registro anteriormente.</p>
+
+    <p align="center"><img src="enlaceban_import4.jpg" width="646" height="274" /></p>
+
+    <p>Una vez terminada la verificación el sistema esta en condiciones de hacer la importación. Para ello haga clic en IMPORTAR DEPOSITOS BANCARIOS. 
+
+    <p align="center"><img src="enlaceban_import5.jpg" width="361" height="31" /></p>
+
+    <p>El sistema mostrará una pantalla en la cual podrá elegir una caja especifica para descargar los archivos (siempre que haya aperturado esa caja), o una descarga directa en la primera caja que tenga declarada.</P>
+
+    <p align="center"><img src="enlaceban_import6.jpg" width="444" height="265" /></p>
+
+    <p>Haga clic en el boton continuar y el proceso de importación comenzará. El sistema irá cargando en cuestión de segundos, cada uno de los registros que componen el archivo bancario. Una vez terminado el proceso el sistema mostrará el siguiente mensaje:</p>
+
+    <p align="center"><img src="enlaceban_import7.jpg" width="242" height="96" /></p>
+
+    <H5>Con el proceso de importar archivos usted optimizará el tiempo de carga de los pagos referenciados y podrá obtener reportes de ingresos y adeudos de manera rápida, exacta y actualizada.</H5>
+
+</div>
+  
+<p><a href="http://www.grupoges.com.mx">Consulta las caracter&iacute;sticas de 
+  Control Escolar GES en su versi&oacute;n 4</a>. </p>
+
+  </body>
+
+</html>
+
+

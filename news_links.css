@@ -1,0 +1,6 @@
+.newslinks {font-size: 8pt; font-family:Arial; color: black }
+
+.newslinks:link { text-decoration: underline; font-weight:none; text-style: none }
+.newslinks:visited { text-decoration: none; }
+.newslinks:active { text-decoration: underline; color:#7597F0;}
+.newslinks:hover { color:#7597F0; }

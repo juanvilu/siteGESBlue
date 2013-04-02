@@ -1,0 +1,347 @@
+BODY {
+/*	MARGIN: 5px;*/
+	BACKGROUND-COLOR: white;
+	SCROLLBAR-FACE-COLOR: #dedac6; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-SHADOW-COLOR: #787878; 
+	SCROLLBAR-ARROW-COLOR: #000000; 
+	SCROLLBAR-TRACK-COLOR: #bcb7a3;
+	margin            : 0px 0px 0px 0px;
+	font-family       : verdana,arial,helvetica,sans;
+    font-size         : 9px;	
+	font-color		  : #4C4C64;
+}	
+
+TABLE
+{
+   border-width     : 0px;
+   border-spacing   : 0px;
+   border-collapse  : collapse;
+}
+
+TABLE.fullWidth,TABLE.fW
+{
+   width            : 100%;
+}
+
+TD
+{
+   padding          : 0px 0px 0px 0px;
+}
+
+TD.fullWidth
+{
+   width            : 100%;
+}
+
+IMG
+{
+   border-width     : 0px;
+   padding          : 0px 0px 0px 1px;
+   display          : inline;
+}   
+
+INPUT, SELECT, TEXTAREA
+{
+   color            : #115E94;
+   font-family      : helvetica,arial,sans-serif;
+   font-size        : 9px;
+   border-width     : 1px;
+   border-style     : solid;
+   border-color     : #7EB0C9;
+}
+
+INPUT.CHECKCLASS
+{
+   color            : #115E94;
+   font-family      : helvetica,arial,sans-serif;
+   font-size        : 9px;
+   border-width     : 0px;
+   border-style     : solid;
+   border-color     : #7EB0C9;
+   text-color : #A8C4F8;
+}
+
+TD.columnTitle
+{
+   FONT-SIZE: 9px;
+   background-color : #A8C4F8;
+   FONT-FAMILY: helvetica,arial,sans-serif;
+   font-color: white;
+   padding-top   : 3px;
+   padding-bottom   : 2px;
+      
+}
+
+.columnTitle
+{
+   FONT-SIZE: 9px;
+   COLOR: #115E94;
+   FONT-FAMILY: helvetica,arial,sans-serif;
+   FONT-WEIGHT: bolder;
+}
+
+TD.columnTitleSmall
+{
+   background-color : #A8C4F8;
+   FONT-FAMILY: helvetica,arial,sans-serif;
+   font-color: white;
+   padding-top   : 3px;
+   padding-bottom   : 2px;
+      
+}
+
+.columnTitleSmall
+{
+   FONT-SIZE: 9px;
+   COLOR: #115E94;
+   FONT-FAMILY: Tahoma,Arial,Helvetica;
+   FONT-WEIGHT: bolder;
+}
+
+TD.columnNormal
+{
+   FONT-SIZE: 9px;
+   padding-top      : 2px;
+   padding-bottom   : 2px;
+}
+
+.columnNormal
+{
+   FONT-SIZE: 9px;
+   COLOR: #115E94;
+   FONT-FAMILY: helvetica,arial,sans-serif;
+}
+
+TD.columnNormalSmall
+{
+   FONT-SIZE: 9px;
+   padding-top      : 2px;
+   padding-bottom   : 2px;
+}
+
+.columnNormalSmall
+{
+   FONT-SIZE: 9px;
+   COLOR: #115E94;
+   FONT-FAMILY: verdana,arial,helvetica,sans;
+}
+
+TD.columnNormalHilite
+{
+   FONT-SIZE: 10px;
+   padding-top      : 2px;
+   padding-bottom   : 2px;
+}
+
+.columnNormalHilite
+{
+   FONT-SIZE: 10px;
+   COLOR: #115E94;
+   FONT-FAMILY: Verdana,Arial,Helvetica;
+   FONT-DECORATION: bolder;
+}
+
+TD.columnMenuStrong
+{
+   background-color : #A8C4F8;
+   padding-top      : 2px;
+   padding-bottom   : 2px;
+}
+
+.columnMenuStrong
+{
+   FONT-SIZE: 8px;
+   COLOR: #115E91;
+   FONT-FAMILY: verdana,arial,helvetica;
+   FONT-DECORATION: bolder;
+}
+
+TD.columnMenuSoft
+{
+   background-color : #E6EEFF;
+   padding-top      : 2px;
+   padding-bottom   : 2px;
+}
+
+.columnMenuSoft
+{
+   FONT-SIZE: 9px;
+   COLOR: #115E91;
+   FONT-FAMILY: tahoma,arial,helvetica,sans;
+   FONT-DECORATION: bolder;
+}
+
+TD.columnMenuTitle
+{
+   FONT-SIZE: 9px;
+   background-color : #616181;
+   padding-top      : 2px;
+   padding-bottom   : 2px;
+}
+
+.columnMenuTitle
+{
+   FONT-SIZE: 9px;
+   COLOR: white;
+   FONT-FAMILY: helvetica,arial,sans-serif;
+   FONT-WEIGHT: bolder;
+}
+
+TD.columnNormalPrinterFriendly
+{
+   FONT-FAMILY: helvetica,arial,sans-serif;
+}
+
+.columnNormalPrinterFriendly
+{
+   color : #A8C4F8;
+   FONT-SIZE: 9px;
+   FONT-FAMILY: helvetica,arial,sans-serif;
+   COLOR: black;
+}
+
+/*blanco*/
+.B {font-Family: verdana,arial,helvetica,sans; font-size: 9px; color: #ffffff}
+.C {font-Family: Arial,Helvetica; font-size: 9px; color: #FFFFFF;text-decoration: none;}
+
+/* textos blancos, negrita, fondo gris, para manchetas grises */
+.D {font-Family: verdana,arial,helvetica,sans; font-weight: bold; font-size: 7.2pt; color: #ffffff; background-color: #494965}
+
+/* textos menu izq, blancos con efecto rollover */
+.E {font-Family: verdana,arial,helvetica,sans; font-weight: none; font-size: 9px; color: #115E94; text-decoration: none;}
+.E:hover {color: blue; font-weight: none; background-color: yellow }
+
+/* hipervinculos en hojas alternas, no en menu */
+.E2 {font-Family: helvetica,arial,sans-serif; font-weight: bold; font-size: 9px; color: blue; text-decoration: underline;}
+.E2:hover {color: black; font-weight: bold; background-color: yellow }
+
+
+/* hipervinculos de las paginas auxiliares */
+.Ligas {font-Family: arial; font-weight: bold; font-size: 9px; color: #115E94; text-decoration: underline;}
+.Ligas:hover {color: white; font-weight: bold; background-color: blue; color: yellow; }
+
+/* hiperv¡nculos especiales en la parte del titulo, blancos con efect */
+.Esp2 {font-Family: helvetica,arial,sans-serif; font-weight: bold; font-size: 9px; color: #ffffff; text-decoration: none;}
+.Esp2:hover {color: red; font-weight: bold;}
+
+/* hipervinculos especiales en la parte del texto, peque¤os */
+.Esp3 {font-Family: Tahoma; font-size: 10px; color: #4C5CA5; text-decoration: none;}
+.Esp3:hover {color: blue; text-decoration: underline; background-color: yellow }
+
+/* hipervinculos especiales en la parte del titulo (barra), blancos con efect */
+.toplinks {font-Family: Verdana,Arial,Helvetica; font-weight: bold; font-size: 9px; color: white; text-decoration: none;}
+.toplinks:hover {color: red; font-weight: bold;}
+
+/* hipervinculos, blancos con efecto rollover */
+.Esp {font-Family: Verdana,Arial,Helvetica; font-weight: bold; font-size: 9px; color: #ffffff; text-decoration: none;}
+.Esp:hover {color: yellow; font-weight: bold;}
+
+/* texto de titulares */
+.Titular {font-Family: arial,tahoma,sans; font-weight: bold; font-size: 11px; color: #588ba3; text-decoration: none;}
+
+/* texto de titulares de las paginas adicionales */
+.Titulares {font-Family: arial; font-weight: bold; font-size: 12px; color: #4C4C64; text-decoration: none; line-height: 17px; }
+
+/* sub titulos */
+.Subtitulos {
+	COLOR: #34A400;
+    padding: 0px 1px 0px 4px;
+	margin: 0px 0px; 
+	font-family: arial narrow;
+	font-variant: small-caps;
+	font-size: 9px;
+    font-weight : bold;
+    display     : inline;
+}
+
+/* texto comun */
+.F {font-family: helvetica,arial,sans-serif; font-size: 9px; color: #4C4C64; line-height: 15px }
+.FBOLD {font-family: helvetica,arial,sans-serif; font-weight: bold; font-size: 9px; color: #4C4C64}
+.FTITLE {font-family: helvetica,arial narrow; font-weight: bold; font-size: 9px; color: #4C4C64; font-variant: small-caps; }
+
+/* texto opcional */
+.G {font-Family: Verdana,Arial,Helvetica; font-size: 12px; color: #4C4CF2}
+
+/* texto chico*/
+.H {font-Family: Verdana,Arial,Helvetica; font-size: 10px; color: #666666}
+
+/* textos blancos, negrita, fondo gris, para manchetas naranjas */
+.I {font-Family: Verdana,Arial,Helvetica; font-weight: bold; font-size: 7.2pt; color: #ffffff; background-color: #EE4E00}
+/* textos blancos */
+.J {font-Family: Verdana,Arial,Helvetica; font-weight: bold; font-size: 7.2pt; color: #ffffff;}
+/* texto chico negro*/
+.K {font-Family: Verdana,Arial,Helvetica; font-size: 9px; color: #000000;}
+/* texto chico rojo*/
+.L {font-Family: Verdana,Arial,Helvetica; font-size: 9px; color: #CC3300}
+/* texto chico morado*/
+.M {font-Family: Verdana,Arial,Helvetica; font-size: 9px; color: #4C4C64;}
+/* texto chico azul*/
+.N {font-Family: Verdana,Arial,Helvetica; font-size: 9px; color: #3434FC;}
+.O {font-Family: Arial,Helvetica; font-size: 10px; color: #000000;text-decoration: none;}
+.P {background-color: #3B5AAF}
+.Q {background-color: #DCE2EE}
+
+/* spacer */
+.sp {font-size: 4pt;}
+.sp2 {font-size: 1px;}
+.sp3 {font-size: 2px;}
+.sp4 {font-size: 12px;}
+
+/* bullet */
+.bl {font-Family: verdana,arial,helvetica,sans; font-size: 10pt; color: #CC3300;font-weight: bold;}
+
+.link_white { 
+	BACKGROUND: #FFFFFF;
+	BORDER-BOTTOM: 1px solid #d2cdac;
+	BORDER-LEFT: 1px solid #d2cdac; 
+	BORDER-RIGHT: 1px solid #d2cdac;
+}
+
+H1 {
+	BORDER-RIGHT: 0px; 
+	BORDER-TOP: 0px; 
+	MARGIN: 5px 0px 10px; 
+	FONT: bolder 14px helvetica,arial,sans-serif; 
+	font-variant: small-caps; 
+	BORDER-LEFT: 0px; 
+	BORDER-BOTTOM: 0px;
+	display: inline;
+}
+
+H2 {
+	MARGIN: 0px; FONT: bold 13px arial, helvetica, sans;
+}
+
+H3 {
+	COLOR: #34A400;
+	margin: 5px 10px; 
+	font-family: arial narrow;
+	font-variant: small-caps;
+	font-size: 17px;
+    font-weight      : bold;
+}
+
+H4 {
+	COLOR: gray;
+	MARGIN: 0px; 
+	FONT: bold 14px tahoma, arial, helvetica, sans;
+}
+
+SPAN.separador_puntos
+{
+	background       : url(images/separador_puntos.gif) repeat-x left 100%;
+	display: inline;
+    width=100%;
+}
+
+/* Mobile devices*/
+.mobile_link {font-Family: Tahoma; font-size: 6px; color: #4C4CF2}
+
+.mobile_link2 {font-Family: Tahoma; font-size: 6px; color: gray}
+
+.mobile_link A:active
+{
+   background : yellow;
+}
+

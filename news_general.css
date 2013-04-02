@@ -1,0 +1,521 @@
+body
+    {
+    margin: 0;
+    padding: 0;
+    font: 80% Verdana, Arial, Helvetica, sans-serif;
+    background: #D5DBDB;
+    text-align: center;
+    }
+
+a
+    {
+    color: #006699;
+	text-decoration: none;
+    }
+
+/*a:hover
+    {
+    color: #0099CC;
+	background: #EFEFEF;
+	text-decoration: none;
+    }
+*/
+
+#contenedor
+    {
+	margin: 0 auto;
+	width: 780px;
+	position: relative;
+	background: #fff;
+	padding: 0 10px 0 10px;
+	text-align: justify;
+	border-right: 1px solid #999999;
+	border-left: 1px solid #999999;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+   }
+	
+* html #contenedor
+    {
+    width: 750px;
+    }
+
+#logo
+    {
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    }
+
+#logo img {
+border:0px none;
+}
+
+#cabecera
+    {
+    padding-top: 80px;
+    }
+#cabecera .p2
+    {
+    font-size: 12px;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    margin: 0;
+    }
+#contenedor #intro #cabecera .p1
+    {
+    font-size: 11px;
+    height: 105px;
+    margin: 0;
+    color: green;
+    font: 12px/120% Tahoma;
+    }
+
+#contenedor #intro #cabecera .p1 span
+    {
+	padding: 20px 35px 0 20px;
+	display: block;
+	margin: 0; 
+	font: 12px/120% Tahoma;
+    }
+
+ .navega {
+	text-align: center;
+	/*display: inline;	*/
+	font: 10px;
+    }
+	
+/*   .navega ul {	
+   margin           : 0px;
+   padding          : 0px;
+	list-style: none;		  
+    }
+	*/
+/*    .navega li {
+	float: left;
+	background: #666666;
+	text-align:center;*/
+/*	display: inline;*/
+/*	width: 20%; */
+	}
+	
+/*   .navega a {
+	width: 100%;
+	text-decoration: none;
+	display: block;
+	color: #FFFFFF;
+    }
+*/
+
+    
+	.navega a:hover {
+	background: #E2E2C5;
+	color: #000066;
+    }
+	
+	.navega .nomarc {
+	color: #000000;
+	background-color: #F3F3F3;
+	}
+	
+.icono {
+	border: 1px solid #999999;
+	display: inline;
+	margin: 3px 3px 0px 0px;
+	height: 43px;
+	width: 46px;
+	float: left;
+	padding: 0px;
+}
+
+.minitexto {
+	display: inline;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	color: #666666;
+}
+
+.ultimo {
+	display: block;
+}
+
+.categoria {
+	display: block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #666666;
+	text-align: right;
+
+}
+
+.autor {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 85%;
+	color: #666666;
+	text-align: right;
+}
+
+.resumen {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 85%;
+	color: #333333;
+	margin-left: 30px;
+	margin-bottom: 25px;
+}
+
+em {
+	font-weight: bold;
+	text-decoration: none;
+	font-style: normal;
+
+}
+.sub {
+
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+h3 {
+	font-family: "Trebuchet MS", Arial;	font-size: 180%;
+	text-align: left;
+
+}
+
+h4 {
+	font-family: "Trebuchet MS";
+	font-size: 140%;
+	line-height: normal;
+	font-style: italic;
+	font-weight: bold;
+	vertical-align: text-top;
+	border: none;
+}
+
+h5 {
+	font-family: "Trebuchet MS", Arial;	font-size: 130%;
+}
+
+h6 {
+	font-family: "Trebuchet MS", Arial;	font-size: 110%;
+}
+
+.piensu {
+	font-family: "Trebuchet MS", Arial;
+	font-size: 90%;
+	color: #666666;
+	text-align: center;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #EAEAEA;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	margin-right: 80px;
+	margin-left: 80px;
+}
+.patrocinadores {
+	text-align: center;
+}
+
+   .patrocinadores img {
+	border: none;
+	
+	margin-right: 10px;
+	margin-left: 10px;
+   }
+
+.texto li {
+	text-align: left;
+}
+
+em {
+	font-weight: bold;
+	text-decoration: none;
+	font-style: normal;
+
+}
+
+.cuadro2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	background-color: #EFEFEF;
+	display: block;
+	width: 95%;
+	position: relative;
+	padding: 4%;
+	text-align: left;
+	color: #000000;
+}
+
+TD.fecha {
+	font-size: 70%;
+	align: rigth;
+   background : #666666; 	
+
+}
+
+.fecha {
+	color: yellow;
+	padding: 0px 10px;	
+}
+
+.texto {
+	text-align: justify;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+TD.texto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: justify;
+	margin-right: 10px;
+}
+
+TABLE.texto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.texto img {
+	border-right: 3px solid #999999;
+	border-left: 1px solid #999999;
+	border-top: 1px solid #999999;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+
+.cuadro {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	background-color: #F9F7E3;
+	display: block;
+	width: 80%;
+	left: 10%;
+	position: relative;
+	padding: 2%;
+	text-align: left;
+	color: #000000;
+}
+.valoracion {
+	background-color: #F3F3F3;
+	text-align: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 2px 10px ;
+ 	margin-right: 5px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.publicidad {
+	text-align: center;
+}
+
+.ligas {
+	color: #106699;
+}
+
+.ligas:hover
+    {
+    color: red;
+	text-decoration: underline;
+	background: none;
+    }
+	
+.ligas_hilite {
+	color: #106699;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.ligas_hilite:hover
+    {
+    color: red;
+	text-decoration: underline;
+	background: yellow;
+    }	
+
+.infoURL
+    {
+    color: #333;
+	text-decoration: none;
+	padding: 0px 25px;	
+    }
+	
+/* newsletter styles */	
+
+/* columna de la izquierda: Destacados */
+.hilite_table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+/*	background-color: #EFEFEF;*/
+	display: block;
+	width: 100%;
+/*	position: relative;
+	padding: 4%; */
+	text-align: left;
+	color: #000000;
+}
+
+.hilite_table_item {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width: 100%;
+/*	position: relative;
+	padding: 4%; */
+	text-align: left;
+	color: #000000;
+}
+
+/* columna media: Detalle del newsletter */
+TABLE.news_table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: white;
+	border-width     : 0px;
+    border-spacing   : 0px;
+    border-collapse  : collapse;
+	width: 100%;
+}
+
+.news_table_titlerow {
+	font-family: Arial, sans-serif, Times;
+	font-size: 13px;
+	FONT-WEIGHT: bolder;
+	background-color: #FFFFFF;
+	width: 100%;
+	text-align: left;
+	color: #000000;
+}
+
+.news_table_row {
+	font-family: Arial, sans-serif, Times;
+	font-size: 12px;
+	FONT-WEIGHT: none;
+	background-color: #FFFFFF;
+	width: 100%;
+	text-align: left;
+	color: gray;
+}
+
+.ligas_news {
+	color: #106699;
+}
+
+.ligas_news:hover
+    {
+	text-decoration: underline;
+	background: #EFEFEF;
+    }
+
+#lineainferior
+    {
+	width: 100%;
+	background: #FFD648;
+	text-align: justify;
+   }
+   
+#infoinferior
+    {
+	width: 100%;
+	text-align: center;
+	font-size: 9px;
+   }
+
+
+/* menu styles */
+TD.taMenu
+{
+   background : #666666; 
+}
+
+DIV.taMenu
+{
+   float            : left;
+   background-color	: #666666; 
+   font-color		: white;   
+}
+
+DIV.taMenu UL
+{
+   margin           : 0px;
+   list-style       : none;
+}
+
+DIV.taMenu LI
+{
+   display          : inline;
+   margin           : 0px;
+   padding          : 0px;
+}
+
+DIV.taMenu A
+{
+   background       : url(images/menu-sup-news.gif) no-repeat right top;
+   float            : left;
+   font-size        : 12px;
+   font-weight      : normal;
+   text-decoration  : none;
+   font-color		: white;
+}
+
+DIV.taMenu A:link, DIV.taMenu A:visited,
+DIV.taMenu A:active
+{
+   align: center;	
+   color: white;
+   padding: 2px 10px 2px 10px;
+}
+
+DIV.taMenu A:hover
+{
+   align: center;	
+   color: black;
+   padding:	2px 10px 2px 10px;
+}
+
+/* 20-nov-2006*/
+
+img.noborder {
+    border-width     : 0px;
+}
+
+.texto_tutorial_paso {
+	display: inline;
+	font-family: "Trebuchet MS";
+	font-size: 130%;
+	font-weight: bolder;
+	color: black;
+	font-style: italic;
+	text-align: left;
+}
+
+DIV.texto
+{
+   margin-right: 10px;
+   margin-left: 10px;   
+   text-align: justify;   
+}
+
+LI.texto
+{
+   margin-right: 0px;
+   margin-left: 10px;   
+   text-align: justify;   
+}
+
+.G {font-Family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: black}
+
+.menu_newsletter {
+	color: #106699;
+}
+
+.menu_newsletter:hover
+    {
+    color: yellow;
+	text-decoration: underline;
+	background: yellow;
+    }

@@ -1,0 +1,75 @@
+<head>
+<title>Manejo de Literales</title>
+
+<link href="news_general.css" media="screen" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div class="texto"> 
+  <h3>&iquest;C&oacute;mo agregar un campo personalizado con soporte de cat&aacute;logos?</h3>
+  <p>&nbsp;</p>
+    
+  <p align="right" class="autor"><em>Autor: Margarita Lozano Neveros</em></p>
+  <p align="justify">Conoceremos dicho proceso mediante el siguiente ejemplo.<br>
+  </p>
+  
+</div>
+<div class="texto">
+  <p align="left">Vamos a definir un campo personalizado para alumnos llamado NIVEL_INGLES, 
+    de tipo Alfanum&eacute;rico con longitud m&aacute;xima de 10 caracteres. Los 
+    valores que requeriremos introducir son NINGUNO, BASICO, MEDIO, BUENO o PERFECTO.</p>
+  <p>Para evitar que el usuario ingrese otros valores, crearemos una tabla dentro 
+    de la misma base de datos de Interbase con la siguiente estructura:</p>
+  <p align="left">CREATE TABLE CAT_<strong>NIVEL_INGLES</strong> (<br>
+    ID_ESCUELA SMALLINT NOT NULL,<br>
+    <strong>NIVEL_INGLES</strong> VARCHAR(10) NOT NULL,<br>
+    DESCRIPCION VARCHAR(100) )</p>
+  <p align="center"><br>
+    <img src="creando_tabla_enBD.jpg" width="629" height="211"></p>
+  <p align="left"><br>
+    Y la llenaremos con los siguientes valores:</p>
+  <p align="center"><img src="creando_catalogo.jpg" width="629" height="246"></p>
+  <p>INSERT INTO cat_nivel_ingles (ID_ESCUELA, NIVEL_INGLES, DESCRIPCION )<br>
+    VALUES (1, &#8220;NINGUNO&#8221;, &#8220;Sin conocimientos de Ingl&eacute;s&#8221; 
+    )</p>
+  <p>INSERT INTO cat_nivel_ingles (ID_ESCUELA, NIVEL_INGLES, DESCRIPCION )<br>
+    VALUES (1, &#8220;BASICO&#8221;, &#8220;Conocimientos b&aacute;sicos de Ingl&eacute;s&#8221; 
+    )</p>
+  <p>INSERT INTO cat_nivel_ingles (ID_ESCUELA, NIVEL_INGLES, DESCRIPCION )<br>
+    VALUES (1, &#8220;MEDIO&#8221;, &#8220;Conocimientos aceptables de Ingl&eacute;s&#8221; 
+    )</p>
+  <p>INSERT INTO cat_nivel_ingles (ID_ESCUELA, NIVEL_INGLES, DESCRIPCION )<br>
+    VALUES (1, &#8220;BUENO&#8221;, &#8220;Se expresa con fluidez en Ingl&eacute;s&#8221; 
+    )</p>
+  <p>INSERT INTO cat_nivel_ingles (ID_ESCUELA, NIVEL_INGLES, DESCRIPCION )<br>
+    VALUES (1, &#8220;PERFECTO&#8221;, &#8220;Se expresa y entiende a la perfecci&oacute;n 
+    el Ingl&eacute;s&#8221; )</p>
+  <p>Ahora definiremos nuestro campo personalizado de la siguiente manera:<br>
+  </p>
+  <p align="center"><img src="configuracion_campo_catalogo.jpg" width="481" height="223"></p>
+  <p align="left">Observe que en la opci&oacute;n <strong>Tabla de Cat&aacute;logo 
+    de referencia</strong>, podemos seleccionar la tabla recien creada, adem&aacute;s 
+    de que la <strong>Descripci&oacute;n o nombre del campo</strong> debe ser 
+    extactamente igual al nombre de la <strong>Tabla</strong> anteponiendole el 
+    prefijo CAT_ .</p>
+  <p align="left">Despu&eacute;s de guardar los cambios, se sugiere salir del 
+    sistema para reiniciar el buffer de campos adicionales.</p>
+  <p align="justify">Ahora en la ficha del alumno, nuestro campo personalizado 
+    ser&aacute; llenado con una lista que permitir&aacute; utilizar los valores 
+    de la tabla reci&eacute;n creada y por lo tanto, impedir&aacute; incorporar 
+    valores incorrectos.<br>
+  </p>
+  <p align="center"><img src="ficha_con_campo_cat.jpg" width="642" height="230"></p>
+</div>
+<div align="justify" class="texto"> </div>
+<div class="texto"></div>
+<div class="texto">
+<p></p>
+</div>
+<div class="texto"></div>
+<div class="texto"> 
+</div>
+<p><a href="http://www.grupoges.com.mx">Consulta las caracter&iacute;sticas de 
+  Control Escolar GES en su versi&oacute;n 4</a>. </p>
+  
+  </body>
